@@ -1,6 +1,8 @@
+// Importing necessary modules for user input
 const readline = require('readline-sync');
 const prompt = require('prompt-sync')();
 
+// Function to calculate net salary based on basic salary and benefits
 function calculateNetSalary(basicSalary, benefits) {
     const payeeTax = basicSalary * 0.1; // Assuming tax is 10% of the basic salary
     const nhifDeduction = 1000; // Assuming NHIF deduction is a fixed amount
@@ -10,6 +12,7 @@ function calculateNetSalary(basicSalary, benefits) {
     const totalDeductions = payeeTax + nhifDeduction + nssfDeduction;
     const netSalary = grossSalary - totalDeductions;
 
+     // Return an object containing the salary details
     return {
         grossSalary: grossSalary,
         payeeTax: payeeTax,
