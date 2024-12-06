@@ -1,3 +1,5 @@
+const readline = require('readline-sync');
+const prompt = require('prompt-sync')();
 function checkSpeed(speed) {
     const speedLimit = 70;
     if (speed <= speedLimit) {

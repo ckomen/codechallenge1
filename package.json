@@ -1,0 +1,15 @@
+{
+  "name": "codechallenge1",
+  "version": "1.0.0",
+  "description": "This repository contains solutions for a set of JavaScript toy problems.",
+  "main": "netsalaryCalculator.js",
+  "scripts": {
+  "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

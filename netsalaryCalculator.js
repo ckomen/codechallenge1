@@ -1,4 +1,5 @@
 const readline = require('readline-sync');
+const prompt = require('prompt-sync')();
 
 function calculateNetSalary(basicSalary, benefits) {
     const payeeTax = basicSalary * 0.1; // Assuming tax is 10% of the basic salary
